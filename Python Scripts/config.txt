@@ -1,0 +1,51 @@
+[paths]
+bathy = C:\Users\middl\OneDrive\Documents\cela1.csv
+output = C:\Users\middl\OneDrive\Documents\XBeach_Output
+
+[settings]
+interpolation_method = cubic
+
+[transect]
+xstart = 891000
+ystart = 3349000
+xend = 891000
+yend = 3350000
+number_of_points = 1000
+
+[waves]
+Hm0 = 1.0
+Tp = 5.0
+mainang = 90
+zs0 = 1.0
+rt = 3600
+
+[grid]
+dxmin = 0.5
+nx = 1000
+ny = 0
+dx = 1
+dy = 1
+
+[model]
+tstop = 3600
+tintm = 3600
+tintp = 0.1
+tintg = 300
+wavemodel = nonh
+
+[options]
+vegetation = 0
+sedtrans = 0
+morphology = 0
+
+[global_output]
+vars = zs, u, hh, H, zb
+
+[mean_output]
+vars = zs, u
+
+[point_output]
+vars = zs, u
+
+[probes]
+locations = 100 1, 550 1
