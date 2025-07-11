@@ -1,0 +1,1 @@
+call "..\software\XBeach\xbeach.exe"
