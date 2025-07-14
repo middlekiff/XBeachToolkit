@@ -6,3 +6,5 @@
 
 # The XBeach Workflow Walkthrough document is designed to take the user through the entire process, from setup in AutoCAD and ArcGIS through running the simulation. 
 # The exercise itself will only cover the portion of the workflow involving Matlab, as it is the most complicated.
+# The QUICKPLOT software is located in "CEDS DEMO - Copy\QUICKPLOT\bin\d3d.qp" 
+# Double-click it to start. It will take a little while. The dropdown menu will allow selection of results from finished XBeach simulations.
